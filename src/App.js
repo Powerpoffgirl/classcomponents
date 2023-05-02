@@ -1,16 +1,18 @@
 import "./App.css";
 import Car from "./components/Car";
+import ClassClick from "./components/ClassClick";
 import Counter from "./components/Counter";
+import FunctionClick from "./components/FunctionClick";
 import Hello from "./components/Hello";
 import Message from "./components/Message";
 
 function App() {
   return (
     <div className="App">
-      <Counter />
-
+      <FunctionClick />
+      <ClassClick />
+      {/* <Counter /> */}
       {/* <Message /> */}
-
       {/* Hello
       <Car />
       <Hello name="Vishwas" heroname="Good boy">
