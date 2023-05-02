@@ -1,12 +1,15 @@
 import "./App.css";
 import Car from "./components/Car";
+import Counter from "./components/Counter";
 import Hello from "./components/Hello";
 import Message from "./components/Message";
 
 function App() {
   return (
     <div className="App">
-      <Message />
+      <Counter />
+
+      {/* <Message /> */}
 
       {/* Hello
       <Car />
