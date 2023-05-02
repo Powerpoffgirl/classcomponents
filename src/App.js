@@ -1,17 +1,20 @@
 import "./App.css";
-import Car from "./components/Car";
-import ClassClick from "./components/ClassClick";
-import Counter from "./components/Counter";
-import EventBind from "./components/EventBind";
-import FunctionClick from "./components/FunctionClick";
-import Hello from "./components/Hello";
-import Message from "./components/Message";
-import ParentComponent from "./components/ParentComponent";
+// import Car from "./components/Car";
+// import ClassClick from "./components/ClassClick";
+// import Counter from "./components/Counter";
+// import EventBind from "./components/EventBind";
+// import FunctionClick from "./components/FunctionClick";
+// import Hello from "./components/Hello";
+// import Message from "./components/Message";
+// import ParentComponent from "./components/ParentComponent";
+import UserGreeting from "./components/UserGreeting";
 
 function App() {
   return (
     <div className="App">
-      <ParentComponent />
+      <UserGreeting />
+
+      {/* <ParentComponent /> */}
       {/* <EventBind /> */}
 
       {/* <FunctionClick />
