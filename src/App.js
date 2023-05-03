@@ -1,4 +1,6 @@
 import "./App.css";
+import Form from "./components/Form";
+import NameList from "./components/NameList";
 // import Car from "./components/Car";
 // import ClassClick from "./components/ClassClick";
 // import Counter from "./components/Counter";
@@ -7,12 +9,14 @@ import "./App.css";
 // import Hello from "./components/Hello";
 // import Message from "./components/Message";
 // import ParentComponent from "./components/ParentComponent";
-import UserGreeting from "./components/UserGreeting";
+// import UserGreeting from "./components/UserGreeting";
 
 function App() {
   return (
     <div className="App">
-      <UserGreeting />
+      <Form />
+      {/* <NameList /> */}
+      {/* <UserGreeting /> */}
 
       {/* <ParentComponent /> */}
       {/* <EventBind /> */}
@@ -51,4 +55,4 @@ export default App;
   State can be changed
   useState Hook -> Functional components
   this.state -> Class components
-*/
+   */
